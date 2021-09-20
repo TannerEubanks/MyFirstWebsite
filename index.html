@@ -1,3 +1,83 @@
+ <!DOCTYPE html>
 <html>
-  <p> hello world </p>
+  <head>
+    <title> Oxford Website </title>
+  </head>
+  <body>
+    <h1> Oxford High School <img src = "pics/logo.gif" title = "picture of oxford high school logo" width = 200px> </h1><br>
+    <hr>
+    <h2> what I like most: </h2>
+    <P> I love <i>oxford high school</i>. I like the <b><i>great teachers</i></b> here because <br> they help out a lot. I like the amount of class options I have had <br> throughout highschool. I like that <b>most</b> of the staff is nice </p>
+
+    <h3> pictures: </h3>
+    <img src = "pics/highschool.jfif" title = "picture of oxford high school" width = 200px>
+    <img src = "pics/football.jfif" title = "picture of Football field" width = 200px>
+    <img src = "pics/theater.jpg" title = "picture of PAC" width = 200px>
+    
+  
+    <ol> <b>Favorite Classes</b>
+      <li> COMP SCIENCE </li>
+      <li> PLTW </li>
+      <li> Science </li>
+    </ol>
+
+    <ul> <i><b>Best Lunches</b></i>
+      <li> wildcat mash </li>
+      <li> french toast breakfast lunch </li>
+    <br>
+    
+    
+    <form action = "results.html" method = "GET" >
+      <div>
+        <label for = "name"> Name </label>
+        <input type = "text" name = "name" id = "name" placeholder="username" required> 
+      </div>
+      <div>
+        <label for == "email"> Email </label>
+        <input type = "email" id = "email" required placeholder = "email">
+      </div>
+      <div>
+        <label for == "age"> Age </label>
+        <input type = "number" id = "age" required min = "1" max = "200" placeholder = "age">
+      </div>
+      <div>
+        <label for == "date"> Email </label>
+        <input type = "date" id = "date" required placeholder = "Date">
+      </div>
+      <div>
+        Favorite Food
+        <div>
+          <label for = "banana">Banana</label>
+          <input type = "checkbox" name = "banana" id = "banana">
+        </div>
+      </div>
+      <div>
+        Grade level
+        <div>
+          <label for = "11"> 11</label>
+          <input type = "radio" name = "Grade Level" id = "11" value = "11">
+        </div>
+        <div>
+          <label for = "12"> 12</label>
+          <input type = "radio" name = "Grade Level" id = "12" value = "12">
+        </div>
+      </div>
+      <div>
+        <label for="eyeColor"> Eye Color</label>
+        <select name="eyeColor" id="eyeColor">
+          <option value = "Green">Green</option>
+          <option label = "Red" value = "Red"></option>
+        </select>
+      </div> 
+      <div>
+        <label> 
+          Password 
+          <input type = "password" name = "password" placeholder = "password" required>
+        </label>
+      </div>
+      <button type = "reset"> Reset </button>
+      <button type = "submit"> Submit </button>
+      
+    </form>
+  </body>
 </html>
